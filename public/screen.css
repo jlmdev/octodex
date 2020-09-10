@@ -1,5 +1,5 @@
 :root {
-  font: 16px / 1 sans-serif;
+  font: 14px / 1 sans-serif;
 }
 
 html {
@@ -9,4 +9,32 @@ html {
 body {
   margin: 0;
   min-height: 100%;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  height: 64px;
+  border: 1px dashed black;
+  position: fixed;
+  width: 100vw;
+}
+
+header>nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 1px dashed blue;
+  height: 100%;
+}
+
+header li {
+  display: inline;
+  border: 1px dashed red;
+}
+
+header a {
+  align-self: center;
 }
