@@ -81,22 +81,28 @@ a {
 main img {
   border: 1px solid rgb(230, 230, 230);
   border-radius: 10px;
-  margin-left: 20px;
-  /* margin-right: 20px; */
+  /* margin-left: 20px;
+  margin-right: 20px; */
 }
 
 article {
   border: 1px dashed green;
 }
 
+article>a img {
+  width: 100%;
+  height: auto;
+}
+
 article ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 400px;
+  width: 100%;
   list-style: none;
   border: 1px dashed black;
   padding-left: 20px;
+  box-sizing: border-box;
 }
 
 article li img {
@@ -107,4 +113,13 @@ article li img {
 
 article li {
   border: 1px dashed red;
+}
+
+section {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+section article {
+  width: 100%;
 }
