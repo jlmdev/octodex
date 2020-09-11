@@ -85,6 +85,10 @@ main img {
   /* margin-right: 20px; */
 }
 
+article {
+  border: 1px dashed green;
+}
+
 article ul {
   display: flex;
   justify-content: space-between;
