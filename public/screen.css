@@ -42,3 +42,8 @@ header li {
 header a {
   align-self: center;
 }
+
+.spacer {
+  width: 100vw;
+  height: 64px;
+}
