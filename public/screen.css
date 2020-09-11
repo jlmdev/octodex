@@ -24,6 +24,7 @@ header {
   width: 100vw;
   /* opacity: 0.7; */
   font-size: 14px;
+  border-bottom: 1px solid rgb(218, 219, 219);
 }
 
 header>nav {
@@ -122,6 +123,7 @@ article li img {
 
 article li {
   /* border: 1px dashed red; */
+  color: rgb(99, 108, 116);
 }
 
 section {
@@ -134,6 +136,9 @@ section article {
 }
 
 footer {
+  border-top: 1px solid rgb(229, 232, 235);
+  margin-left: 20px;
+  margin-right: 20px;
   /* border: 1px dashed blue; */
 }
 
@@ -144,7 +149,8 @@ footer div {
 
 footer p {
   /* border: 1px dashed red; */
-  margin-left: 20px;
+  color: rgb(99, 108, 116);
+  font-size: 14px;
 }
 
 @media all and (min-width: 501px) and (max-width: 999px) {
