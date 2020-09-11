@@ -86,23 +86,30 @@ main img {
 }
 
 article {
+  display: flex;
+  flex-direction: column;
   border: 1px dashed green;
 }
 
 article>a img {
-  width: 100%;
+  display: block;
+  width: 92%;
   height: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 article ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
+  width: 92%;
   list-style: none;
   border: 1px dashed black;
-  padding-left: 20px;
+  padding-left: 0px;
   box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 article li img {
