@@ -25,6 +25,7 @@ header {
   /* opacity: 0.7; */
   font-size: 14px;
   border-bottom: 1px solid rgb(218, 219, 219);
+  line-height: 64px;
 }
 
 header>nav {
@@ -92,6 +93,7 @@ article {
   display: flex;
   flex-direction: column;
   /* border: 1px dashed green; */
+  padding-top: 10px;
 }
 
 article>a img {
@@ -100,6 +102,10 @@ article>a img {
   height: auto;
   margin-left: auto;
   margin-right: auto;
+}
+
+article li a {
+  color: rgb(40, 47, 52);
 }
 
 article ul {
