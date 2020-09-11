@@ -30,6 +30,10 @@ header>nav {
   height: 100%;
 }
 
+header img {
+  vertical-align: middle;
+}
+
 header li {
   display: inline;
   border: 1px dashed red;
